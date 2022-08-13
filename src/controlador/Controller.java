@@ -51,7 +51,7 @@ public class Controller implements ActionListener{
         
    
         try {
-            Conexion con1 = new Conexion();
+            Conexion con1   = new Conexion();
             Connection con = con1.conexion();
             
             String sql = "select ID_Lider, Nombre, Primer_Apellido, Ciudad_Residencia from Lider order by Ciudad_Residencia ASC";
